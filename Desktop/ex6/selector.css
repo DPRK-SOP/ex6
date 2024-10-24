@@ -1,0 +1,91 @@
+/* univeral selector */
+*{
+    word-spacing: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* element selector */
+p{
+    color: #55eb14
+} 
+/* ID selector */
+#heading {
+    color: #0b65db
+}
+
+#unique-box {
+    border: 2px solid purple;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* class selector */
+.simply {
+    color: rgb(226, 138, 5);
+}
+
+.box {
+    background-color: rgb(174, 212, 36);
+}
+
+/* attribute selector */
+input[type="text"]{
+    border: 2px solid #80018b;
+}
+
+/* descendant selector */
+/* element */
+ul li{
+    color: rgb(189, 18, 104)
+} 
+
+ul.light li.highlight{
+    color: #df4478;
+}
+
+/* direct child selector */
+ul.list>li{
+    list-style-type: square;
+    margin-left: 120px;
+}
+/* direct child element */
+div>h2{
+    color: #80018b;
+}
+/* direct child class */
+.box>.child{
+    color: #eea1b4;
+}
+/* multiple class selection within element */
+.inner-box.first-box{
+    color: #df4478;
+}
+/* multiple elements */
+h5,
+h6 {
+    color: #c0e975;
+}
+/* multiple class */
+.multiple1,
+.multiple2 {
+    color: #f308c0;
+}
+/* class */
+.link+.box-sibling{
+    background-color: #ce283e;
+}
+/* general sibling selector */
+/* class */
+.box ~ .general-sibling {
+    color: #8fee97;
+}
+/* element */
+h1 ~ h4 {
+    color: #d8499c;
+}
+
+/* pseudo-class selector */
+.pseudo-class-link:hover{
+    color: #0b65db;
+    text-decoration: underline;
+    ;
+}

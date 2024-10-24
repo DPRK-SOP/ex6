@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 10px;
+}
+.fa-facebook{
+    color: rgb(221, 117, 20);
+    font-size: 50px;
+}
+
+.fa-whatsapp{
+    color: rgb(218, 39, 143);
+    font-size: 100px;
+}
+.fa-list-check{
+    color: rgb(17, 196, 85);
+    font-size: 200px;
+}
+.fa-cloud-arrow-down{
+    color: rgb(9, 48, 131);
+    font-size: 400px;

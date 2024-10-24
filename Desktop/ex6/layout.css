@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+img {
+    width: 50%
+    position: relative;
+   margin: 0 auto
+}
+.container {
+    max-width: 1100px;
+    border: 1px solid red;
+}
+
+.container {
+    max-width: 800px;
+    width: 80%;
+    border: 1px solid red;
+    margin: 15% auto;
+}

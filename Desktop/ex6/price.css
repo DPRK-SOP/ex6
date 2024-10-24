@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600px;
+    line-height: 1.6;
+    background-color: rgb(218, 218, 226);
+    color: blue;
+}
+.main {
+    max-width: 1100px;
+    background-color: rgb(240, 114, 11);
+    margin: 0 auto;
+    margin-top: 90px;
+    padding: 90px,30px;
+    border-color: 1px solid red;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    border-radius: 10px;
+    border-color: white;
+    box-shadow: 0 4px 6px rgba(0,0,0,3);
+    padding: 20px;
+    text-align: center;
+
+}
+
+h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: white;
+    padding: 10px;
+    border: 10px solid red
+}
+
+.pro {
+    background: linear-gradient(rgb(194,222, 255, 1); (rgb 180, 254, 118,1)
+}
+.enterprise {
+    background: linen;
+}
+
+.price {
+    font-size: 40px;
+    font-weight: 700;
+
+}
+sup{
+    font-size: 20px;
+    positive: reflective;
+    left: 5px;
+    top: 5px;
+}
+
+.price{
+    font-size: 20px;
+    positive: reflective;
+    font-size: 40px;
+    font-weight: 40px;
+    margin-bottom: 10px;
+}
+
+.month {
+    font-size: 10px;
+    margin-left: 3px;
+}
+
+p strong {
+text-transform: uppercase;
+font-weight: 800;
+letter-spacing: 1px;
+}
+
+.desc {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.btm {
+    display: block;
+    background-color: white;
+    border: 1px solid blue;
+    color: rgb(237, 241, 241);
+    text-decoration: name;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 45px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: painter;
+
+}
+.btm-.pro{
+    background-color: black;
+ color: white;   
+}
+.btn:hover{
+    background: black;
+    color: white;
+}
+.pro-.btn:hover{
+    background-color: white
+    color black;
+}
+
+ul{
+    list-style-type: none;
+    
+}
